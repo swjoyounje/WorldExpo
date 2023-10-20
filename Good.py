@@ -139,7 +139,8 @@ def scrap(url):
     for r in cmt_data.iterrows():
         r = str(r[1].values)
         r = re.sub(r"[^ㄱ-ㅎㅏ-ㅣ가-힣 ]", "", r)
-        r = okt.morphs(r, stem=True)
+        #r = okt.morphs(r, stem=True)
+        r = r.split()
         r = [word for word in r if not word in stopwords]
         cloud_str = cloud_str+r
         encoded = tokenizer.texts_to_sequences([r])
