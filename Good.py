@@ -345,7 +345,7 @@ if btn_text:
             )
         with col2:
             st.markdown(
-                '<p class="small-font">2030부산세계박람회 홍보, 유치   </p>',
+                '<p class="small-font">2030부산세계박람회 홍보, 유치  테스트테스트테스트 </p>',
                 unsafe_allow_html=True,
             )
 
