@@ -33,7 +33,7 @@ def scrap(url):
 
     
 
-    okt = Okt()
+    #okt = Okt()
 
     graph = [50,50]
 
